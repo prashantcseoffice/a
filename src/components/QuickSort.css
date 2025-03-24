@@ -1,0 +1,136 @@
+/* Centering the quicksort container */
+.quicksort-container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Color legend */
+  .color-legend {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .color-box {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    margin-right: 5px;
+  }
+  
+  /* Color definitions */
+  .pivot {
+    background-color: orange !important;
+  }
+  
+  .highlight-i {
+    background-color: red !important;
+  }
+  
+  .highlight-j {
+    background-color: green !important;
+  }
+  
+  /* Styling for array bars */
+  .array-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .array-bar {
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 50px;
+    text-align: center;
+    background-color: lightgray;
+    border: 2px solid black;
+  }
+  
+  /* Add transitions to make animations smoother */
+  .array-bar.pivot {
+    background-color: orange !important;
+    color: white;
+  }
+  
+  .array-bar.highlight-i {
+    background-color: red !important;
+    color: white;
+  }
+  
+  .array-bar.highlight-j {
+    background-color: green !important;
+    color: white;
+  }
+  
+  /* Tracing steps */
+  .tracing-container {
+    margin-top: 20px;
+  }
+  
+  .tracing-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .trace-array {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .trace-bar {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: lightgray;
+    border: 2px solid black;
+  }
+  
+  .trace-bar.pivot {
+    background-color: orange !important;
+  }
+  
+  .trace-bar.highlight-i {
+    background-color: red !important;
+  }
+  
+  .trace-bar.highlight-j {
+    background-color: green !important;
+  }
+  
+  /* Buttons and input */
+  .input-section {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    padding: 8px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 8px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
